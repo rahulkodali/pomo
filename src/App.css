@@ -1,0 +1,52 @@
+
+body{
+  background-color: #f2cbd3;
+
+  color: #ffffff;
+}
+
+body.green{
+  background-color: #cbf2d1;
+
+  color: #ffffff;
+}
+
+main{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  padding-top: 50px;
+  max-width: 340px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button{
+  background-color: transparent;
+  color: #494444;
+  border: 0;
+  display: inline-block;
+  width: 100px;
+  cursor: pointer;
+}
+
+button.Settings{
+  width: auto;
+  background-color: #f5dfdf;
+  border-radius: 7px;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  line-height: 36px;
+}
+
+button.Settings svg{
+  width: 36px;
+  float: left;
+  margin-right: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-transform: capitalize;
+  color: #ffffff
+}
